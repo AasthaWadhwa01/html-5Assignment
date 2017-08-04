@@ -50,7 +50,7 @@ ul a:hover{
 	text-align: center;
 	top: 68%;
 	left: 70%;
-	color: black;
+	color: white;
 	padding-bottom: 10px;
 }
 
@@ -113,11 +113,13 @@ width: 70%;
 }
 
 .mostwatchedtext h3{
-	color: grey;
+	color: darkgrey;
+	font-family: helvetica;
 }
 
 .mostwatchedtext p{
 	color: black;
+	font-family: arial;
 }
 
 .mostwatchedtitle h3{
@@ -136,13 +138,19 @@ float: left;
 width: 70%;
 }
 
+.limelightstext h3{
+color: darkgrey;
+font-family: helvetica;
+}
+
 .limelights img{
 	height: 200px;
 	width: 300px;
 }
 
-.limelights p{
+.limelightstext p{
 	color: black;
+	font-family: arial;
 }
 
 .limelightstitle h3{
@@ -153,9 +161,10 @@ width: 70%;
 }
 
 #footer{
+	color: white;
 	background: grey;
 	font-family: cursive;
-	margin-top: 230px;
+	margin-top: 250px;
 }
 
 #footer a img{
@@ -164,4 +173,13 @@ width: 70%;
 	width:50px;
 }
 
+
+#newsvideo{
+	height: 30%;
+	width:50%;
+}
+
+.videoheading h1{
+	margin top: 20px;
+}
 
