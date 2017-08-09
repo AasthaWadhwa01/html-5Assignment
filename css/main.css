@@ -1,10 +1,12 @@
+<!--header -->
 h1{
 	font-family: 'Exo', sans-serif;
-	font-family: 'Shrikhand', cursive;
+	font-family: 'Shrikhand', cursive;		<!--google text API -->
 	height: 25px;
 	color: black;
 	}
 
+<!--nav bar styling strat -->
 li{
 	line-height: 60px;
 	display: inline;
@@ -19,15 +21,15 @@ ul a{
 ul a:hover{
 	text-decoration: underline;
 	color: black;
-
-
 }
-
 .navigationbar{
 	background: grey;
 	height: 60px;
 }
 
+<!--nav bar styling end -->
+
+<!--setting width of website start -->
 .widthset{
 	width: 1000px;
 	margin-left: 250px;
@@ -36,7 +38,10 @@ ul a:hover{
 .widthset_bg{
 	background: #000080 ;
 }
+<!--setting width of website end -->
 
+
+<!--hero image styling start-->
 .hero{
 	background-image: url("../image/heroimg.jpg");
 	height: 60%;
@@ -54,9 +59,9 @@ ul a:hover{
 	padding-bottom: 10px;
 }
 
+<!--hero image styling end-->
 
-
-
+<!--three column section one -->
 #section_one{
 	margin-top: 5px;
 
@@ -70,7 +75,9 @@ ul a:hover{
 #section_one p{
 	color: black;
 }
+<!--three column section one end -->
 
+<!--three column section two -->
 #section_two{
 	margin-top: 5px;
 	color: blue;
@@ -84,6 +91,9 @@ ul a:hover{
 	color:black;
 }
 
+<!--three column section two end -->
+
+<!--three column section three -->
 #section_three{
 	margin-top: 5px;
 	color: blue;
@@ -97,11 +107,15 @@ ul a:hover{
 	color: black;
 }
 
+<!--three column section three end -->
+
+<!--most watched image -->
 .mostwatchedpic{
 	float: left;
 	width: 30%;
 }
 
+<!--most watched text -->
 .mostwatchedtext{
 	float: right;
 width: 70%;
@@ -112,6 +126,7 @@ width: 70%;
 	width: 200px;
 }
 
+<!--most watched header -->
 .mostwatchedtext h3{
 	color: darkgrey;
 	font-family: helvetica;
@@ -128,11 +143,13 @@ width: 70%;
 	padding-top: 20px;
 }
 
+<!--limelights image -->
 .limelightspic{
 	float: right;
 	width: 30%;
 }
 
+<!--limelights text -->
 .limelightstext{
 float: left;
 width: 70%;
@@ -160,6 +177,7 @@ font-family: helvetica;
 	padding-top: 20px;
 }
 
+<!-- footer -->
 #footer{
 	color: white;
 	background: grey;
@@ -173,7 +191,7 @@ font-family: helvetica;
 	width:50px;
 }
 
-
+<!-- news video -->
 #newsvideo{
 	height: 30%;
 	width:50%;
